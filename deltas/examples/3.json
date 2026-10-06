@@ -1,0 +1,346 @@
+[
+  {
+    "inserts": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/fileExtension"
+        },
+        "object": {
+          "type": "literal",
+          "value": ".html"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/core/uuid"
+        },
+        "object": {
+          "type": "literal",
+          "value": "f3cf6930-7d1e-11ec-a614-9ff148b27f2b"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/format"
+        },
+        "object": {
+          "type": "literal",
+          "value": "text/html"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#dataSource"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/remote-url/b9d14bc1-a9d5-460e-94a9-053c85ad68e5"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName"
+        },
+        "object": {
+          "type": "literal",
+          "value": "f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileSize"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20438"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#LocalFileDataObject"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      }
+    ],
+    "deletes": []
+  },
+  {
+    "inserts": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/fileExtension"
+        },
+        "object": {
+          "type": "literal",
+          "value": "ttl"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/core/uuid"
+        },
+        "object": {
+          "type": "literal",
+          "value": "e4a80430-7d1e-11ec-8051-c3a2b11fd6ab"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/created"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2022-01-24T14:06:58.035Z"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/format"
+        },
+        "object": {
+          "type": "literal",
+          "value": "text/turtle"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/modified"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2022-01-24T14:06:58.035Z"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.gift/concepts/meta-file-type"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName"
+        },
+        "object": {
+          "type": "literal",
+          "value": "e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileSize"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "269207"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      }
+    ],
+    "deletes": []
+  },
+  {
+    "inserts": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "share://submissions/f0983300-7d1e-11ec-85d4-d5af4c816b05.ttl"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileSize"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4860"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      }
+    ],
+    "deletes": []
+  }
+]

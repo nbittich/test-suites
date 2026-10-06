@@ -1,0 +1,2 @@
+<http://test.org> <http://purl.org/dc/terms/title> "The trouble with Bob".
+<http://test.org> <http://purl.org/dc/terms/creator> <http://test.org#me>.

@@ -1,0 +1,149 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix ext: <http://mu.semte.ch/vocabularies/ext/>.
+@prefix mu: <http://mu.semte.ch/vocabularies/core/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix eli: <http://data.europa.eu/eli/ontology#>.
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>.
+
+<http://mu.semte.ch/services/file-service/files/61eeb292cf7cb9000d000000> nfo:fileSize 32654;
+        a nfo:FileDataObject;
+        dcterms:created "2022-01-24T14:07:14.000Z"^^xsd:dateTime;
+        nfo:fileName """TEST_Bijlage.pdf""";
+        dbo:fileExtension """pdf""";
+        mu:uuid """61eeb292cf7cb9000d000000""";
+        dcterms:format """application/pdf; charset=binary""";
+        dcterms:modified "2022-01-24T14:07:14.000Z"^^xsd:dateTime.
+
+<share://f3cef400-7d1e-11ec-a614-9ff148b27f2b.html> nie:dataSource <http://data.lblod.info/remote-url/b9d14bc1-a9d5-460e-94a9-053c85ad68e5>;
+        nfo:fileName """f3cef400-7d1e-11ec-a614-9ff148b27f2b.html""";
+        dcterms:format """text/html""";
+        mu:uuid """f3cf6930-7d1e-11ec-a614-9ff148b27f2b""";
+        nfo:fileSize 20438;
+        dbo:fileExtension """.html""";
+        a nfo:FileDataObject, nfo:LocalFileDataObject.
+
+<share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl> dcterms:created "2022-01-24T14:06:58.035Z"^^xsd:dateTime;
+        dbo:fileExtension """ttl""";
+        dcterms:type <http://data.lblod.gift/concepts/meta-file-type>;
+        dcterms:modified "2022-01-24T14:06:58.035Z"^^xsd:dateTime;
+        nfo:fileName """e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl""";
+        dcterms:format """text/turtle""";
+        mu:uuid """e4a80430-7d1e-11ec-8051-c3a2b11fd6ab""";
+        nfo:fileSize 269207;
+        a nfo:FileDataObject.
+
+<http://data.lblod.info/submission-documents/61EEC85FB5D3120009000007> dcterms:source <share://semantic-forms/20210706102126-forms.ttl>, <share://submissions/ee8d5bf0-7d2b-11ec-8051-c3a2b11fd6ab.ttl>,
+                <share://submissions/fc09d010-7d2b-11ec-85d4-d5af4c816b05.ttl>, <share://submissions/fc10d4f0-7d2b-11ec-85d4-d5af4c816b05.ttl>,
+                <share://submissions/fc561b50-7d2b-11ec-85d4-d5af4c816b05.ttl>;
+        a ext:SubmissionDocument;
+        mu:uuid """61EEC85FB5D3120009000007""".
+
+<http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89> dcterms:type <https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432>, <https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432>;
+        a <http://lblod.data.gift/vocabularies/automatische-melding/FormData>, <http://lblod.data.gift/vocabularies/automatische-melding/FormData>;
+        dcterms:hasPart <http://data.lblod.info/remote-url/da65b9bd-92ec-453c-84ba-44117e8d0e16>, <http://data.lblod.info/remote-url/da65b9bd-92ec-453c-84ba-44117e8d0e16>;
+        ext:decisionType <https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432>, <https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432>;
+        eli:is_about <http://data.lblod.info/form-data/nodes/b65d5e7a-c1d3-48b1-9357-5d57ec77a660>, <http://data.lblod.info/form-data/nodes/b65d5e7a-c1d3-48b1-9357-5d57ec77a660>;
+        mu:uuid """fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89""", """fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89""";
+        ext:sessionStartedAtTime "2022-01-24T00:00:00.000Z"^^xsd:dateTime, "2022-01-24T00:00:00.000Z"^^xsd:dateTime;
+        eli:passed_by <http://data.lblod.info/id/bestuursorganen/cd5025e360730cf27430b9161504f5e381d6e49d51f4aeebd5d832dea0c69077>, <http://data.lblod.info/id/bestuursorganen/cd5025e360730cf27430b9161504f5e381d6e49d51f4aeebd5d832dea0c69077>.
+
+<share://submissions/fc561b50-7d2b-11ec-85d4-d5af4c816b05.ttl> dbo:fileExtension """ttl""";
+        dcterms:type <http://data.lblod.gift/concepts/form-data-file-type>;
+        nfo:fileSize 2838;
+        nfo:fileName """fc561b50-7d2b-11ec-85d4-d5af4c816b05.ttl""";
+        a nfo:FileDataObject;
+        mu:uuid """fc561b50-7d2b-11ec-85d4-d5af4c816b05""";
+        dcterms:modified "2022-01-24T15:40:43.440Z"^^xsd:dateTime;
+        dcterms:created "2022-01-24T15:40:41.221Z"^^xsd:dateTime;
+        dcterms:format """text/turtle""".
+
+<http://data.lblod.info/form-data/f0c55d80-7d1e-11ec-88a4-2da2d0189b89> a <http://lblod.data.gift/vocabularies/automatische-melding/FormData>, <http://lblod.data.gift/vocabularies/automatische-melding/FormData>;
+        eli:date_publication """2022-01-06"""^^<http://www.w3.org/2001/XMLSchema#date>, """2022-01-06"""^^<http://www.w3.org/2001/XMLSchema#date>;
+        ext:decisionType <https://data.vlaanderen.be/id/concept/BesluitDocumentType/3fa67785-ffdc-4b30-8880-2b99d97b4dee>, <https://data.vlaanderen.be/id/concept/BesluitDocumentType/3fa67785-ffdc-4b30-8880-2b99d97b4dee>;
+        ext:sessionStartedAtTime "2022-01-20T00:00:00.000Z"^^xsd:dateTime, "2022-01-20T00:00:00.000Z"^^xsd:dateTime;
+        dcterms:type <https://data.vlaanderen.be/id/concept/BesluitDocumentType/3fa67785-ffdc-4b30-8880-2b99d97b4dee>, <https://data.vlaanderen.be/id/concept/BesluitDocumentType/3fa67785-ffdc-4b30-8880-2b99d97b4dee>;
+        mu:uuid """f0c55d80-7d1e-11ec-88a4-2da2d0189b89""", """f0c55d80-7d1e-11ec-88a4-2da2d0189b89""";
+        dcterms:hasPart <http://data.lblod.info/remote-url/b9d14bc1-a9d5-460e-94a9-053c85ad68e5>, <http://mu.semte.ch/services/file-service/files/61eeb292cf7cb9000d000000>,
+                        <http://data.lblod.info/remote-url/b9d14bc1-a9d5-460e-94a9-053c85ad68e5>, <http://mu.semte.ch/services/file-service/files/61eeb292cf7cb9000d000000>;
+        eli:passed_by <http://data.lblod.info/id/bestuursorganen/eda776c1a8110935c48c80d695b2d9d081c46c0180b1dd035b455c8c0161d5ab>, <http://data.lblod.info/id/bestuursorganen/eda776c1a8110935c48c80d695b2d9d081c46c0180b1dd035b455c8c0161d5ab>.
+
+<share://fe8927f0-7d2b-11ec-a614-9ff148b27f2b.html> dcterms:format """text/html""";
+        nie:dataSource <http://data.lblod.info/remote-url/da65b9bd-92ec-453c-84ba-44117e8d0e16>;
+        mu:uuid """fe899d20-7d2b-11ec-a614-9ff148b27f2b""";
+        dbo:fileExtension """.html""";
+        nfo:fileSize 1256;
+        a nfo:FileDataObject, nfo:LocalFileDataObject;
+        nfo:fileName """fe8927f0-7d2b-11ec-a614-9ff148b27f2b.html""".
+
+<http://data.lblod.info/submission-documents/61EEB27FB5D3120009000001> mu:uuid """61EEB27FB5D3120009000001""";
+        dcterms:source <share://semantic-forms/20210706102126-forms.ttl>, <share://submissions/e4a80430-7d1e-11ec-8051-c3a2b11fd6ab.ttl>,
+                        <share://submissions/f01c4c40-7d1e-11ec-85d4-d5af4c816b05.ttl>, <share://submissions/f0280c10-7d1e-11ec-85d4-d5af4c816b05.ttl>,
+                        <share://submissions/f0983300-7d1e-11ec-85d4-d5af4c816b05.ttl>;
+        a ext:SubmissionDocument.
+
+<share://submissions/f0983300-7d1e-11ec-85d4-d5af4c816b05.ttl> dcterms:type <http://data.lblod.gift/concepts/form-data-file-type>;
+        nfo:fileSize 4860;
+        nfo:fileName """f0983300-7d1e-11ec-85d4-d5af4c816b05.ttl""";
+        dbo:fileExtension """ttl""";
+        dcterms:format """text/turtle""";
+        a nfo:FileDataObject;
+        dcterms:modified "2022-01-24T14:07:21.884Z"^^xsd:dateTime;
+        dcterms:created "2022-01-24T14:07:18.064Z"^^xsd:dateTime;
+        mu:uuid """f0983300-7d1e-11ec-85d4-d5af4c816b05""".
+
+<http://data.lblod.info/remote-url/da65b9bd-92ec-453c-84ba-44117e8d0e16> nie:url <http://example.com>;
+        a nfo:FileDataObject, nfo:RemoteDataObject;
+        dcterms:created "2022-01-24T15:40:43.410Z"^^xsd:dateTime;
+        adms:status <http://lblod.data.gift/file-download-statuses/success>;
+        mu:uuid """fda41f20-7d2b-11ec-85d4-d5af4c816b05""";
+        dcterms:modified "2022-01-24T15:40:43.410Z"^^xsd:dateTime.
+
+<share://61eeb292cf7cb9000d000001.pdf> nie:dataSource <http://mu.semte.ch/services/file-service/files/61eeb292cf7cb9000d000000>;
+        nfo:fileSize 32654;
+        mu:uuid """61eeb292cf7cb9000d000001""";
+        dcterms:modified "2022-01-24T14:07:14.000Z"^^xsd:dateTime;
+        a nfo:FileDataObject;
+        dbo:fileExtension """pdf""";
+        dcterms:created "2022-01-24T14:07:14.000Z"^^xsd:dateTime;
+        nfo:fileName """61eeb292cf7cb9000d000001.pdf""";
+        dcterms:format """application/pdf; charset=binary""".
+
+<http://data.lblod.info/remote-url/b9d14bc1-a9d5-460e-94a9-053c85ad68e5> dcterms:created "2022-01-24T14:07:21.856Z"^^xsd:dateTime;
+        dcterms:modified "2022-01-24T14:07:21.856Z"^^xsd:dateTime;
+        a nfo:FileDataObject, nfo:RemoteDataObject;
+        nie:url <https://redpencil.io>;
+        mu:uuid """f2dad000-7d1e-11ec-85d4-d5af4c816b05""";
+        adms:status <http://lblod.data.gift/file-download-statuses/success>.
+
+<http://data.lblod.info/submissions/61EEB27FB5D3120009000002> dcterms:created "2022-01-24T14:06:55.515Z"^^xsd:dateTime;
+        dcterms:subject <http://data.lblod.info/submission-documents/61EEB27FB5D3120009000001>;
+        prov:generated <http://data.lblod.info/form-data/f0c55d80-7d1e-11ec-88a4-2da2d0189b89>;
+        adms:status <http://lblod.data.gift/concepts/9bd8d86d-bb10-4456-a84e-91e9507c374c>;
+        <http://purl.org/pav/createdBy> <http://data.lblod.info/id/bestuurseenheden/f0326d3687d05c2e41ddbfaee635ce7ecb00eddc81454e58eb5fc8c66f511629>;
+        mu:uuid """61EEB27FB5D3120009000002""";
+        dcterms:modified "2022-01-24T14:07:17.197Z"^^xsd:dateTime;
+        a <http://rdf.myexperiment.org/ontologies/base/Submission>.
+
+<share://submissions/ee8d5bf0-7d2b-11ec-8051-c3a2b11fd6ab.ttl> nfo:fileSize 269204;
+        dcterms:type <http://data.lblod.gift/concepts/meta-file-type>;
+        nfo:fileName """ee8d5bf0-7d2b-11ec-8051-c3a2b11fd6ab.ttl""";
+        dbo:fileExtension """ttl""";
+        dcterms:format """text/turtle""";
+        dcterms:modified "2022-01-24T15:40:18.095Z"^^xsd:dateTime;
+        mu:uuid """ee8d5bf0-7d2b-11ec-8051-c3a2b11fd6ab""";
+        dcterms:created "2022-01-24T15:40:18.095Z"^^xsd:dateTime;
+        a nfo:FileDataObject.
+
+<http://data.lblod.info/submissions/61EEC85FB5D3120009000008> prov:generated <http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89>;
+        <http://purl.org/pav/createdBy> <http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4>;
+        dcterms:created "2022-01-24T15:40:15.801Z"^^xsd:dateTime;
+        a <http://rdf.myexperiment.org/ontologies/base/Submission>;
+        dcterms:modified "2022-01-24T15:40:40.609Z"^^xsd:dateTime;
+        dcterms:subject <http://data.lblod.info/submission-documents/61EEC85FB5D3120009000007>;
+        adms:status <http://lblod.data.gift/concepts/9bd8d86d-bb10-4456-a84e-91e9507c374c>;
+        mu:uuid """61EEC85FB5D3120009000008""".

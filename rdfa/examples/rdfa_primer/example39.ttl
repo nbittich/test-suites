@@ -1,0 +1,2 @@
+<http://test.org> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/>.
+<http://test.org> <http://purl.org/dc/terms/date> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear>.

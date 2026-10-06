@@ -1,0 +1,448 @@
+[
+  {
+    "inserts": [],
+    "deletes": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://data.europa.eu/eli/ontology#is_about"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/nodes/b65d5e7a-c1d3-48b1-9357-5d57ec77a660"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://data.europa.eu/eli/ontology#passed_by"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/id/bestuursorganen/cd5025e360730cf27430b9161504f5e381d6e49d51f4aeebd5d832dea0c69077"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/core/uuid"
+        },
+        "object": {
+          "type": "literal",
+          "value": "fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/ext/decisionType"
+        },
+        "object": {
+          "type": "uri",
+          "value": "https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/ext/sessionStartedAtTime"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2022-01-24T00:00:00Z"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/hasPart"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/remote-url/da65b9bd-92ec-453c-84ba-44117e8d0e16"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://lblod.data.gift/vocabularies/automatische-melding/FormData"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      }
+    ]
+  },
+  {
+    "inserts": [
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://data.europa.eu/eli/ontology#is_about"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/nodes/b65d5e7a-c1d3-48b1-9357-5d57ec77a660"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://data.europa.eu/eli/ontology#passed_by"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/id/bestuursorganen/cd5025e360730cf27430b9161504f5e381d6e49d51f4aeebd5d832dea0c69077"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/core/uuid"
+        },
+        "object": {
+          "type": "literal",
+          "value": "fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/ext/decisionType"
+        },
+        "object": {
+          "type": "uri",
+          "value": "https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/ext/sessionStartedAtTime"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2022-01-24T00:00:00Z"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/hasPart"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/remote-url/da65b9bd-92ec-453c-84ba-44117e8d0e16"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "https://data.vlaanderen.be/id/concept/BesluitType/a0a709a7-ac07-4457-8d40-de4aea9b1432"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://lblod.data.gift/vocabularies/automatische-melding/FormData"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://mu.semte.ch/vocabularies/core/uuid"
+        },
+        "object": {
+          "type": "literal",
+          "value": "61EEC85FB5D3120009000008"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/created"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2022-01-24T15:40:15.801Z"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/modified"
+        },
+        "object": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2022-01-24T15:40:40.609Z"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/subject"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submission-documents/61EEC85FB5D3120009000007"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://purl.org/pav/createdBy"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/id/bestuurseenheden/974816591f269bb7d74aa1720922651529f3d3b2a787f5c60b73e5a0384950a4"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://rdf.myexperiment.org/ontologies/base/Submission"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/ns/adms#status"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://lblod.data.gift/concepts/9bd8d86d-bb10-4456-a84e-91e9507c374c"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      },
+      {
+        "subject": {
+          "type": "uri",
+          "value": "http://data.lblod.info/submissions/61EEC85FB5D3120009000008"
+        },
+        "predicate": {
+          "type": "uri",
+          "value": "http://www.w3.org/ns/prov#generated"
+        },
+        "object": {
+          "type": "uri",
+          "value": "http://data.lblod.info/form-data/fc6ab4c0-7d2b-11ec-88a4-2da2d0189b89"
+        },
+        "graph": {
+          "value": "http://redpencil.data.gift/id/deltas/producer/loket-submissions",
+          "type": "uri"
+        }
+      }
+    ],
+    "deletes": []
+  }
+]
