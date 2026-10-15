@@ -36,6 +36,12 @@ const CASES = [
   ["0031", "EQ: alt quotes"],
   ["0032", "EQ: test dateTime 2025-04-15T12:00:00Z"],
   ["0033", "Could not parse"],
+  ["0034", "EQ: single-quoted STRING_LITERAL_QUOTE"],
+  ["0035", "EQ: trailing ; inside blank node property list"],
+  ["0036", "EQ: trailing ; before final ."],
+  ["0037", "EQ: repeated ;;"],
+  ["0038", "EQ: comment inside blank node property list"],
+  ["0039", "EQ: DOUBLE shorthand keeps lexical form and xsd:double"],
 ];
 
 const makeUuidGen = () => {
