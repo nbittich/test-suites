@@ -1,0 +1,5 @@
+@prefix : <http://example.com/>.
+:a :b [
+    # comment
+    :c 1
+] .

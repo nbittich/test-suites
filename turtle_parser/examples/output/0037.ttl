@@ -1,0 +1,2 @@
+<http://example.com/a> <http://example.com/b> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.com/a> <http://example.com/c> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
